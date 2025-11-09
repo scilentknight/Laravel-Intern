@@ -1,9 +1,10 @@
 <?php
+
 use App\Http\Controllers\SampleDataController;
 
+Route::get('/samplepage', [SampleDataController::class, 'sampledata'])->name('sampledata');
 
-// Route::get('/about', [SampleDataController::class, 'about'])->name('about');
-Route::get('/about', 'about')->name('about');
+
 
 Route::get('/', function () {
     return view('welcome');

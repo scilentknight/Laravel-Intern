@@ -8,7 +8,7 @@
 <body>
     <h1>Welcome to the Home Page</h1>
 
-    <p><a href="{{ route('about') }}">About Us</a></p>
+    <p><a href="{{ route('sampledata') }}">About Us</a></p>
     
 </body>
 </html>
